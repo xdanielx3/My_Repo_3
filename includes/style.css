@@ -1,0 +1,114 @@
+* { margin:0;
+    padding:0; }
+	
+header, nav, main, section, footer, body, aside {display:block;}
+
+.clear { clear:both; }
+
+
+#wrapper { width: 1000px;
+		   margin: 0px auto; }
+
+.logo {  background:url(../images/logo4.png) no-repeat;
+		 position:relative;
+	     width:69px;
+		 height:69px;  
+		 display:block;}
+		 
+.logo_place1 { top:11px;
+			  left:104px; }
+		 
+#nav_block ul { list-style-type:none; float:right; }
+#nav_block li { float:left; }
+.nav_block_link { display:block;
+				  width:242px;
+			      height:57px;
+			      color:#ffffff;
+			      line-height:57px;
+			      font-family:Courier New, monospace;
+			      text-align:center;
+			      text-decoration:none; }
+				  
+.layout_color_1 { background-color: #333333; }
+.layout_color_2 { background-color: #b94a48; }
+
+aside { float:left;
+		background-color:#f2dede;
+		height:696px;
+		width:121px;}
+		
+.block_number_1 { position:relative;
+				  float:right;
+			      background-color:#ee5f5b;
+			      height:268px;
+			      width:849px; }
+			 
+#mini_block_number_1 { position:absolute;
+					   background-color:#000000;
+					   opacity:0.6;
+					   width:126px;
+					   height:94px;
+					   left:342px;
+					   top:89px; }
+			  
+#block_number_2 { position:relative;
+				  margin:0px 67px;
+				  top:492px;
+				  background-color:#000000;
+				  opacity:0.6;
+				  height:175px; }
+			  
+.footer_1 { height:121px;
+		    background-color:#d6d6d6; }
+		 
+/*Layout 2*/		 
+
+.logo_place2 { height:193px;
+			   left:465px;
+			   top:38px; }
+			   
+#nav_block2 { float:left;
+			  height:758px;	
+		      background-color:#333333; }
+#nav_block2 ul { list-style-type: none; }
+
+.block_black { opacity:0.6;
+			   background-color:#000000; }
+
+.layout2_block { width:212px; }
+
+.layout2_cover { position:relative;
+			     float:left;
+				 overflow: hidden;
+				 background-color:#ee5f5b;
+				 width:757px;
+				 height:758px; }
+
+.box1 { position:absolute;
+		height:366px;
+		left:30px; }
+		
+.box2 { position:absolute;
+		top:386px;
+		left:30px;
+		height:500px; }
+		
+.box3 { position:absolute;
+		left:272px;
+		height:560px; }
+		
+.box4 { position:absolute;
+		left:272px;
+		height:306px;
+		top:579px; }
+		
+.box5 { position:absolute;
+		left:514px;
+		height:233px; }
+		
+.footer_2 { position:fixed;
+		    height:50px;
+		    width:1000px;
+		    bottom:0px;
+		    background-color:#d6d6d6; }
+
