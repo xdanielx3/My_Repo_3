@@ -20,13 +20,13 @@ header, nav, main, section, footer, body, aside {display:block;}
 		 
 #nav_block ul { list-style-type:none; float:right; }
 #nav_block li { float:left; }
+#nav_block p  { text-align:center; }
 .nav_block_link { display:block;
 				  width:242px;
 			      height:57px;
 			      color:#ffffff;
 			      line-height:57px;
 			      font-family:Courier New, monospace;
-			      text-align:center;
 			      text-decoration:none; }
 				  
 .layout_color_1 { background-color: #333333; }
@@ -71,6 +71,7 @@ aside { float:left;
 			  height:758px;	
 		      background-color:#333333; }
 #nav_block2 ul { list-style-type: none; }
+#nav_block2 p  { padding-left:6px; }
 
 .block_black { opacity:0.6;
 			   background-color:#000000; }
