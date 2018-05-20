@@ -113,3 +113,74 @@ aside { float:left;
 		    bottom:0px;
 		    background-color:#d6d6d6; }
 
+/* layout 3 */
+
+.logo_place3 { left:20px;
+		       top:22px; }
+
+.layout3logoblock{ float:left;
+			       position:relative;
+			       height:500px;
+				   width:500px; }
+
+.plus { position: absolute; left: 200px; top:206px;}
+
+#nav_block3 { position: relative; top: 369px;}
+#nav_block3 li { float:left; }
+#nav_block3 ul { list-style-type: none; }
+#nav_block3 p  { text-align:center; }
+.nav_block_link3 { display:block;
+			       height:62px;
+				   color:#ffffff;
+				   line-height:62px;
+				   font-family:Courier New, monospace;
+				   text-decoration:none; }
+
+.small { width:166.5px; }
+.large { width:167px; }
+
+.boxesGround { height:500px;
+		     width:500px;
+			 background-color:#9d261d;
+			 /*position: relative;*/
+			 float: left; }
+
+.boxes_side  { height:250px;
+			   width:250px;
+	 		   background-color:#000000;
+			   float: left;
+			   position: relative; }
+
+.boxOne{
+	opacity: 0.1;
+}
+.boxTwo{
+	opacity: 0.3;
+}
+.boxThree{
+	opacity: 0.5;
+}
+.boxFour{
+	opacity: 0.7;
+}
+
+.boxes_side:hover { background-color: #ffffff; opacity: 1.0;  }
+
+.main_block { width:1000px;
+			  height:500px;
+		      background-color:#dd4627;
+			  position: absolute; }
+
+
+@media only screen and (max-width:600px)
+{
+	.main_block {
+		height:1000px;
+		width:500px;
+	}
+	.header_lay3{width:500px;} /*it was the only way i could get the squares down.*/
+}
+
+
+
+
