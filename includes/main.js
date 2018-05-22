@@ -1,5 +1,4 @@
 $("document").ready(function () {
-    var counter = 0;
     var OldOpa;
     var plus = $("img");
     plus.click(function () {
