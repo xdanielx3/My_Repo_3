@@ -1,8 +1,6 @@
 $("document").ready(function () {
     var counter = 0;
     var OldOpa;
-    var newop;
-    var color;
     var plus = $("img");
     plus.click(function () {
         var box = $("<section>").attr("class", "boxes_side").css("opacity", Math.random());
@@ -12,13 +10,10 @@ $("document").ready(function () {
         } ,function () {
             $(this).css("opacity", OldOpa);
             })
-        $("main").append(box);
-        counter++;
-            if(counter == 8){
-                $(".main_block").css("height", "+=500");
-            }
+        $(".main_block").append(box);
     });
 });
+
 
 
 
